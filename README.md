@@ -1,39 +1,50 @@
 # gmicro
-自研微服务框架gmicro重构电商系统
+自研微服务框架 gmicro 重构电商系统
 
-#### 介绍
+## 项目介绍
 
-【重构中】
+gmicro 是一个基于 Go 语言的微服务框架，旨在重构电商系统，提供高性能、可扩展的服务架构。
 
-基于自研gmicro电商系统的重构版本。
+## 技术栈
 
-http服务和rpc服务采用ioc代码分层。
+- **框架与库**：
+  - cobra：命令行应用程序管理
+  - grpc：高性能跨语言的远程过程调用 (RPC) 框架
+  - protoc 插件开发：用于生成 gRPC 代码
+  - ast 开发：抽象语法树操作
+  
+- **设计与架构**：
+  - errors 设计：自定义错误处理
+  - log 日志设计：基于 zap 的日志框架
+  - 三层代码架构：分层设计提升可维护性
 
-http服务 基于gin封装。rpc服务 基于gRPC封装。（第三方接口，借鉴kortos进行服务解耦 可使用其他进行二次封装）
+- **分布式系统**：
+  - dtm：分布式事务管理框架
+  - kratos 与 go-zero：微服务框架
+  - open-telemetry：分布式追踪与监控
+  - prometheus & grafana：监控与可视化工具
 
-自定义log包 基于zap封装、errors包。全适配官方的包
+- **测试与模拟**：
+  - sqlmock、gomock、gomonkey：用于单元测试与模拟
+  - 模糊测试：提高代码的健壮性
 
-借鉴kratos服务注册进行解耦。
-默认使用consul进行服务的注册、发现、负载
+- **DevOps**：
+  - CI/CD：持续集成与持续交付
+  - k8s & kubesphere：容器编排与管理
+  - harbor：云原生的容器镜像仓库
 
-http服务的认证方式默认是：JWT
+## 软件架构
 
-现在用的是cobra、pflag、viper进行配置管理
-启动时可使用--help进行查看
+- **服务架构**：
+  - HTTP 服务与 RPC 服务采用 IOC 代码分层设计。
+  - HTTP 服务基于 Gin 封装，支持中间件与路由配置。
+  - RPC 服务基于 gRPC 封装，支持多种协议。
 
-启动后台服务命令：go run ./cmd/admin/admin.go -c=configs/admin/admin.yaml
-可在GoLand中配置启动时Program arguments为：-c=configs/admin/admin.yaml
+- **服务解耦**：
+  - 借鉴 Kortos 进行服务解耦，支持多种第三方接口的整合。
 
-#### 软件架构
+- **服务注册与发现**：
+  - 默认使用 Consul 进行服务的注册、发现与负载均衡。
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-使用命令行可查看
-
+- **认证与安全**：
+  - HTTP 服务的认证方式默认是 JWT（JSON Web Token）。
