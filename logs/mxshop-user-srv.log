@@ -1,0 +1,21 @@
+2024-12-10 15:32:07.361	[31mFATAL[0m	srv/rpc.go:26	Init db error
+mxshop/app/user/srv.NewUserRPCServer
+	E:/go/自研微服务框架/v2mxshop/app/user/srv/rpc.go:26
+mxshop/app/user/srv.NewUserApp
+	E:/go/自研微服务框架/v2mxshop/app/user/srv/app.go:43
+mxshop/app/user/srv.NewApp.run.func2
+	E:/go/自研微服务框架/v2mxshop/app/user/srv/app.go:58
+mxshop/pkg/app.(*App).runCommand
+	E:/go/自研微服务框架/v2mxshop/pkg/app/app.go:276
+github.com/spf13/cobra.(*Command).execute
+	D:/go/libiary/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:916
+github.com/spf13/cobra.(*Command).ExecuteC
+	D:/go/libiary/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:1044
+github.com/spf13/cobra.(*Command).Execute
+	D:/go/libiary/pkg/mod/github.com/spf13/cobra@v1.6.1/command.go:968
+mxshop/pkg/app.(*App).Run
+	E:/go/自研微服务框架/v2mxshop/pkg/app/app.go:231
+main.main
+	E:/go/自研微服务框架/v2mxshop/cmd/user/user.go:17
+runtime.main
+	D:/go/go1.23.3/src/runtime/proc.go:272

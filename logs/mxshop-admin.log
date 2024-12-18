@@ -1,0 +1,110 @@
+2024-12-10 20:05:00.920	[34mINFO[0m	app/app.go:81	start rest server
+2024-12-10 20:05:00.921	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.921	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/cmdline  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.922	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/profile  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.922	[34mINFO[0m	restserver/server.go:98	POST   /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.922	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.922	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/trace  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.922	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/allocs  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.922	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/block  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.922	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/goroutine  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.922	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/heap  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.922	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/mutex  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.922	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/threadcreate  -->%!s(int=3)(3 handlers)
+2024-12-10 20:05:00.922	[34mINFO[0m	restserver/server.go:116	rest server is running at port 8022
+2024-12-10 20:05:00.925	[31mERROR[0m	app/app.go:134	register servcie error: Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connectex: No connection could be made because the target machine actively refused it.
+2024-12-10 20:05:00.926	[31mERROR[0m	admin/app.go:64	run user app error: Put "http://127.0.0.1:8500/v1/agent/service/register": dial tcp 127.0.0.1:8500: connectex: No connection could be made because the target machine actively refused it.
+2024-12-10 20:06:54.410	[34mINFO[0m	app/app.go:81	start rest server
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/cmdline  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/profile  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	POST   /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/trace  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/allocs  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/block  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/goroutine  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/heap  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/mutex  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/threadcreate  -->%!s(int=3)(3 handlers)
+2024-12-10 20:06:54.410	[34mINFO[0m	restserver/server.go:116	rest server is running at port 8022
+2024-12-10 20:10:04.921	[34mINFO[0m	controller/list.go:9	Get User List is call
+2024-12-10 20:11:43.155	[34mINFO[0m	app/app.go:81	start rest server
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/cmdline  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/profile  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	POST   /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/trace  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/allocs  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/block  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/goroutine  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/heap  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/mutex  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/threadcreate  -->%!s(int=3)(3 handlers)
+2024-12-10 20:11:43.156	[34mINFO[0m	restserver/server.go:116	rest server is running at port 8017
+2024-12-10 20:11:55.441	[34mINFO[0m	controller/list.go:9	Get User List is call
+2024-12-10 20:12:40.677	[34mINFO[0m	controller/list.go:9	Get User List is call
+2024-12-10 20:14:19.042	[34mINFO[0m	app/app.go:81	start rest server
+2024-12-10 20:14:19.042	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.042	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/cmdline  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.042	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/profile  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.042	[34mINFO[0m	restserver/server.go:98	POST   /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.042	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.042	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/trace  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.042	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/allocs  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.042	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/block  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.042	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/goroutine  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.043	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/heap  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.043	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/mutex  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.043	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/threadcreate  -->%!s(int=3)(3 handlers)
+2024-12-10 20:14:19.043	[34mINFO[0m	restserver/server.go:116	rest server is running at port 8017
+2024-12-10 20:14:20.685	[34mINFO[0m	app/app.go:151	stop service
+2024-12-10 20:17:28.084	[34mINFO[0m	app/app.go:85	start rest server
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/cmdline  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/profile  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	POST   /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/trace  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/allocs  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/block  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/goroutine  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/heap  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/mutex  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/threadcreate  -->%!s(int=3)(3 handlers)
+2024-12-10 20:17:28.084	[34mINFO[0m	restserver/server.go:116	rest server is running at port 8017
+2024-12-10 20:18:18.701	[34mINFO[0m	app/app.go:155	stop service
+2024-12-10 20:21:51.108	[34mINFO[0m	app/app.go:85	start rest server
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/cmdline  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/profile  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	POST   /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/trace  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/allocs  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/block  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/goroutine  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/heap  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/mutex  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/threadcreate  -->%!s(int=3)(3 handlers)
+2024-12-10 20:21:51.109	[34mINFO[0m	restserver/server.go:116	rest server is running at port 8017
+2024-12-10 20:21:53.357	[34mINFO[0m	app/app.go:165	stop service
+2024-12-10 20:21:53.361	[34mINFO[0m	restserver/server.go:132	rest server stop
+2024-12-10 20:21:53.361	[34mINFO[0m	restserver/server.go:139	rest server stop
+2024-12-10 20:22:55.749	[34mINFO[0m	app/app.go:85	start rest server
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/cmdline  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/profile  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	POST   /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/symbol  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/trace  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/allocs  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/block  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/goroutine  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/heap  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/mutex  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:98	GET    /debug/pprof/threadcreate  -->%!s(int=3)(3 handlers)
+2024-12-10 20:22:55.750	[34mINFO[0m	restserver/server.go:116	rest server is running at port 8017
+2024-12-10 20:22:57.056	[34mINFO[0m	app/app.go:165	stop service
+2024-12-10 20:22:57.059	[34mINFO[0m	restserver/server.go:138	rest server stop
